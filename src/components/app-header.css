@@ -1,3 +1,9 @@
 .app-header {
-    padding: .25rem .75rem;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 30%;
+}
+
+.app-header > p {
+    align-self: flex-end;
 }

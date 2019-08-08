@@ -1,0 +1,15 @@
+.search-panel {
+    display: inline-flex;
+    margin: 0 0 0 30%;
+    width: 27%;
+    height: 40px;
+
+}
+
+.btn-group {
+    margin: 0 0 0 1%;
+    width: 12%;
+    height: 40px;
+    border: 1px solid black;
+    vertical-align: bottom;
+}
