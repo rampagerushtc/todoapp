@@ -6,3 +6,9 @@
     display: flex;
     margin: 1% 30% 0 30%;
 }
+
+.btn > i.fa {
+    width: 15px;
+    height: 10px;
+
+}

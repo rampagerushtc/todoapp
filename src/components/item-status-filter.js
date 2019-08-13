@@ -5,9 +5,9 @@ const ItemStatusFilter = () => {
 
     return (
         <div className="btn-group">
-            <button className="btn">All</button>
-            <button className="btn">Active</button>
-            <button className="btn">Done</button>
+            <button className="btn btn-primary">All</button>
+            <button className="btn btn-outline-secondary">Active</button>
+            <button className="btn btn-outline-secondary">Done</button>
         </div>
 
     )

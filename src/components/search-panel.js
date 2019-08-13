@@ -10,7 +10,7 @@ const SearchPanel = () => {
 
     return (
         <input 
-        className="search-panel"
+        className="search-panel form-control"
         placeholder={ searchText }
         style={ searchStyle } />
     );

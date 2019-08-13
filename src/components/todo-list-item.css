@@ -3,3 +3,11 @@ span {
     width: 85%;
     
 }
+.btn-exclamation {
+    margin: 0 0 0 7px;
+}
+
+.todo-list-item {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
