@@ -1,12 +1,11 @@
 .app-header {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     margin: 0 30%;
 }
 
-.app-header > p {
+.app-header h2 {
     align-self: flex-end;
-    font-weight: 500;
     font-size: 1.3rem;
     color: grey;
 
