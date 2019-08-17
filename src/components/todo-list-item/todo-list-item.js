@@ -7,21 +7,20 @@ export default class TodoListItem extends Component {
         console.log(`Done: ${this.props.label}`);
     }
 
-
     render() {
 
         const { label, important = false } = this.props;
+        
         const style = {
             color: important ? 'rgb(32, 95, 190)' : 'black',
             fontWeight: important ? '1000' : '500'
         }
 
         return (
-            <span className="todo-list-item">
+            <span className="todo-list-item d-flex">
                 <span className="todo-list-item-label"
                     style={style}
-                    onClick={ this.onLabelClick }>
-                       
+                    onClick={ this.onLabelClick }>                      
                     {label}
                 </span>
                 <button className="btn btn-trash btn-outline-danger">
