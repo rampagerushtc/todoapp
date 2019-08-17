@@ -16,3 +16,12 @@ span {
 .todo-list-item-label {
     flex-grow: 1;
 }
+
+.todo-list-item.done {
+    text-decoration: line-through;
+}
+
+.todo-list-item.important {
+    font-weight: bold;
+    color:steelblue;
+}
