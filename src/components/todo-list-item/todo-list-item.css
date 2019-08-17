@@ -1,6 +1,7 @@
 span {
-    display: inline-block;
-    width: 85%;
+    justify-content: flex-start;
+    //display: inline-block;
+    //width: 85%;
     
 }
 .btn-exclamation {
@@ -10,4 +11,8 @@ span {
 .todo-list-item {
     font-weight: 600;
     font-size: 1.3rem;
+}
+
+.todo-list-item-label {
+    flex-grow: 1;
 }
