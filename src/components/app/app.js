@@ -34,10 +34,10 @@ export default class App extends Component {
         })
     }
 
-    addItem = () => {
+    addItem = (e) => {
         this.setState(({ todoData }) => {
             return {
-                todoData: [...todoData, this.createTodoItem('Make Awesome App')]
+                todoData: [...todoData, this.createTodoItem(e)]
             }
         })
     }

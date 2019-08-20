@@ -3,3 +3,11 @@
     margin: 1% 30%;
     justify-content: flex-end;
 }
+
+.add-item-form input {
+    margin: 0 1% 0 0;
+}
+
+.add-item-form button {
+    width: 120px;
+}
