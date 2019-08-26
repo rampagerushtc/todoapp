@@ -28,7 +28,7 @@ export default class AddItemForm extends Component {
                 <input type="text" 
                         className="form-control"
                         onChange={this.onLabelChange}
-                        placeholder="What deeds to be done"
+                        placeholder="What needs to be done"
                         value={this.state.label} />
                 <button 
                     className="btn btn-outline-secondary">

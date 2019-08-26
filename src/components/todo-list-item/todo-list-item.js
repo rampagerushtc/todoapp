@@ -3,10 +3,6 @@ import './todo-list-item.css'
 
 export default class TodoListItem extends Component {
 
-    onTrashclick = () => {
-
-    }
-
     render() {
 
         const { label, onDeleted,
