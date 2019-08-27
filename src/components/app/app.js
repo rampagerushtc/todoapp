@@ -77,7 +77,6 @@ export default class App extends Component {
 
     onTypeSearch = (e) => {
         this.setState(() => {
-            console.log(e)
             return { onTypeSearchText: e }
         })
 

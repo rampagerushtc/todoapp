@@ -6,11 +6,7 @@ const TodoList = ({ todos, onDeleted,
     onToggleImportant,
     onToggleDone, searchText, activeFilter
 }) => {
-    console.log('------------------');
-    console.log("check filter", activeFilter)
     const elements = todos.map((item) => {
-
-
         if (activeFilter === 'Active') {
             if (item.label.toLowerCase().includes(searchText.toLowerCase()) && !item.done) {
                 const { id, ...itemProps } = item;
